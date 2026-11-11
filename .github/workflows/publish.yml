@@ -1,7 +1,7 @@
 name: publish
 
 # Pushes the package to nuget.org through Trusted Publishing (GitHub OIDC, no stored API key).
-# nuget.org policy: owner clankagent, repository nuclear-option-bindings, workflow file publish.yml.
+# nuget.org policy: owner scramd, repository nuclear-option-bindings, workflow file publish.yml.
 # The repository variable NUGET_USER holds the nuget.org profile name that owns the policy.
 on:
   release:

@@ -1,6 +1,6 @@
 # Agent instructions
 
-This is the public source of the `NuclearOption.Bindings` package, owned by the `clankagent` GitHub account. Work directly on `main` with reviewed commits; do not open pull requests for routine work.
+This is the public source of the `NuclearOption.Bindings` package, in the user's GitHub organization `scramd` (`scramd/nuclear-option-bindings`, transferred from the `clankagent` account on 2026-11-11; `clankagent` pushes with the organization role "All-repository maintain"). Work directly on `main` with reviewed commits; do not open pull requests for routine work.
 
 - `src/NuclearBindings/` is the whole library. Its types stay `internal`: each mod compiles its own copy. Keep every file C# 8 compatible (netstandard2.1 default) with `#nullable enable` at the top.
 - Nuclear Option types appear only in `InputContext.Blocked`, inside `#if !NUCLEAR_BINDINGS_GENERIC`. Keep it that way.

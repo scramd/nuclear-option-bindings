@@ -15,10 +15,10 @@
     <PackageTags>nuclear-option;bepinex;rewired;keybinds;input;hotas;gamepad;configurationmanager</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageProjectUrl>https://github.com/clankagent/nuclear-option-bindings</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/clankagent/nuclear-option-bindings.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/scramd/nuclear-option-bindings</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/scramd/nuclear-option-bindings.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>https://github.com/clankagent/nuclear-option-bindings/blob/main/CHANGELOG.md</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/scramd/nuclear-option-bindings/blob/main/CHANGELOG.md</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="src/NuclearBindings/*.cs" Pack="true" PackagePath="contentFiles/cs/any/NuclearBindings/" BuildAction="Compile" />

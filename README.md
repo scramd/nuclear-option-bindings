@@ -42,7 +42,7 @@ Add the package:
 <PackageReference Include="NuclearOption.Bindings" Version="0.1.0" />
 ```
 
-The `.nupkg` is also attached to each [GitHub release](https://github.com/clankagent/nuclear-option-bindings/releases) for a local package folder. Without NuGet, copy `src/` into your repository and import `src/NuclearBindings.props` from your `.csproj`.
+The `.nupkg` is also attached to each [GitHub release](https://github.com/scramd/nuclear-option-bindings/releases) for a local package folder. Without NuGet, copy `src/` into your repository and import `src/NuclearBindings.props` from your `.csproj`.
 
 Your mod must reference these game assemblies from `NuclearOption_Data/Managed` (most mods already do): `Assembly-CSharp`, `Assembly-CSharp-firstpass`, `Rewired_Core`, `UnityEngine`, `UnityEngine.CoreModule`, `UnityEngine.InputLegacyModule`, `UnityEngine.IMGUIModule`, `UnityEngine.UI`, `UnityEngine.UIModule` and `Unity.TextMeshPro`, plus `BepInEx`. Do not ship them with your mod.
 
