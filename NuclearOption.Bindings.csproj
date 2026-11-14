@@ -9,7 +9,7 @@
     <NoWarn>$(NoWarn);NU5128</NoWarn>
 
     <PackageId>NuclearOption.Bindings</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>scramd</Authors>
     <Description>Unofficial key and button bindings for Nuclear Option BepInEx 5 mods. Players bind keys, key combinations, mouse buttons, gamepad controls and HOTAS buttons, hats and axes in ConfigurationManager (F1) by pressing the control. Keys are read through Unity input, controllers through the game's Rewired. Source-only: the code compiles into your mod, so there is no extra DLL or plugin dependency.</Description>
     <PackageTags>nuclear-option;bepinex;rewired;keybinds;input;hotas;gamepad;configurationmanager</PackageTags>

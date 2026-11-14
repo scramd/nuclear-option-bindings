@@ -39,7 +39,7 @@ A setting holds its rows separated by `;`, so players can also edit it in the `.
 Add the package:
 
 ```xml
-<PackageReference Include="NuclearOption.Bindings" Version="0.1.0" />
+<PackageReference Include="NuclearOption.Bindings" Version="0.1.1" />
 ```
 
 The `.nupkg` is also attached to each [GitHub release](https://github.com/scramd/nuclear-option-bindings/releases) for a local package folder. Without NuGet, copy `src/` into your repository and import `src/NuclearBindings.props` from your `.csproj`.

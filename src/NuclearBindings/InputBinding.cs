@@ -17,7 +17,7 @@ namespace NuclearBindings
     // list of controls with Add binding and Remove. Additive: never consumes the game's bindings.
     internal sealed class InputBinding
     {
-        internal const string Help = " In F1, select Add binding, then press a key (hold Ctrl, Shift or Alt for a combination), a mouse button, a gamepad button, trigger or D-pad direction, or a joystick button, hat direction or axis direction. Remove deletes one control; Reset restores the default.";
+        internal const string Help = " Select Add binding, then press the control: a key (hold Ctrl, Shift or Alt for a combination), a mouse button, or a controller button, trigger or direction. Remove deletes one; Reset restores the default.";
 
         // Per plugin assembly: this source is compiled into each mod separately.
         private static readonly List<InputBinding> all = new List<InputBinding>();

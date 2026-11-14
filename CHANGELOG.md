@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 (2026-11-14)
+
+- Shorter help text under each binding setting. It no longer tells the player to open F1, because they read it there.
+
 ## 0.1.0 (2026-10-30)
 
 First release, taken from the bindings that several Nuclear Option client mods already use.
